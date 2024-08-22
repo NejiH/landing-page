@@ -13,41 +13,43 @@
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
-  <title>WEB | Base Apparel coming soon page</title>
+  <title>MOBILE | Base Apparel coming soon page</title>
 </head>
 
 <body>
-  <div>
+  <div class="bg">
     <main>
       <div class="container">
-        <img src="/images/logo.svg" alt="logo" class="responsive-logo">
-        <img src="/images/hero-mobile.jpg" alt="hero mobile" class="responsive-hero">
-
         <div class="leftBlock">
-          <div class="logo josefin-sans-jojo">
+          <div class="logo">
             <img src="/images/logo.svg" alt="logo">
           </div>
+          <img src="/images/hero-mobile.jpg" alt="hero mobile" class="hero-mobile">
+
           <div class="title josefin-sans-jojo"><span class='pink'>We're</span><span class="bold">coming</span><span
               class="bold">soon</span>
           </div>
-          <div class="text josefin-sans-jojo">
+          <p class="text josefin-sans-jojo">
             Hello fellow shoppers! We're currently building our new fashion store.
             Add your email below to stay up-to-date with announcements and our launch deals.
-          </div>
+          </p>
 
           <div class="input-container">
+
             <input type="email" name="email" class="email" placeholder="Email Adress" min="3">
+            <img src="./images/icon-error.svg" class="icon-error" alt="icon-error" srcset="" />
+
             <button type="button" class="submit" class="button">
-              <img src="./images/icon-arrow.svg" alt="icon-arrow" srcset="" />
-              <img src="./images/icon-error.svg" class="icon-error" alt="icon-error" srcset="" />
+              <img src="./images/icon-arrow.svg" class="icon-arrow" alt="icon-arrow" srcset="" />
             </button>
           </div>
           <p class="text-error josefin-sans-jojo"></p>
         </div>
         <div class="rightBlock">
-          <!-- <img src="/images/hero-desktop.jpg" alt=""> -->
+          <img src="/images/hero-desktop.jpg" alt="hero desktop" class="hero-desktop">
         </div>
       </div>
+
     </main>
 
     <footer>
@@ -56,7 +58,7 @@
         Coded by <a href="#">NejiH</a>.
       </p>
     </footer>
-  </div>
+
   </div>
   <script src="script.js"></script>
 </body>

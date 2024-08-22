@@ -27,6 +27,8 @@ button.addEventListener('click', e => {
 
     if (!message.length > 0) {
 
+        iconError.style.display = 'none';
+
         textError.innerText = 'Merci de vous etre inscrit.e a notre newsletter'
 
     }
