@@ -15,9 +15,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -73,11 +70,11 @@ Even if I haven't used it in my code, I found a way to access a specific element
 
 ### Useful resources
 
-- [Responsive Design Basics](https://www.youtube.com/watch?v=na-X_SM8vg0&t=680s) - This is a video, quit old but still very useful, that helped me to better understand how to create a responsive version of the landing page with the media query.
+- [Responsive Design Basics](https://www.youtube.com/watch?v=na-X_SM8vg0&t=680s) - This is a video, quite old but still very useful, that helped me to better understand how to create a responsive version of the landing page with the media query.
 
 ## Author
 
-- Website - [NejiH](https://www.your-site.com)
+- Website - [NejiH](https://github.com/NejiH/)
 
 ## Acknowledgments
 
